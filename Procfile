@@ -1,1 +1,1 @@
-web: node app.js $PORT
+web: pokemon-showdown $PORT
