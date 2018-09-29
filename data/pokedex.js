@@ -14060,6 +14060,31 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
+	cakedwebble: {
+		num: 892,
+		species: "Dwebble - Cake",
+		types: ["Fairy", "Normal"],
+		baseStats: {hp: 50, atk: 65, def: 85, spa: 35, spd: 35, spe: 55},
+		abilities: {0: "Own Tempo", 1: "Scrappy", H: "Simple"},
+		heightm: 0.3,
+		weightkg: 14.5,
+		color: "Red",
+		evos: ["cakecrustle"],
+		eggGroups: ["Undiscovered"],
+	},
+	cakecrustle: {
+		num: 893,
+		species: "Crustle - Cake",
+		types: ["Fairy", "Normal"],
+		baseStats: {hp: 70, atk: 105, def: 125, spa: 65, spd: 75, spe: 45},
+		abilities: {0: "Own Tempo", 1: "Scrappy", H: "Simple"},
+		heightm: 1.4,
+		weightkg: 100,
+		color: "Red",
+		prevo: "cakedwebble",
+		evoLevel: 34,
+		eggGroups: ["Undiscovered"],
+	}
 };
 
 exports.BattlePokedex = BattlePokedex;
