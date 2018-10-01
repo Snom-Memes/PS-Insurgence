@@ -7698,6 +7698,16 @@ let BattleFormatsData = {
 		gen: 5,
 		tier: "Illegal",
 	},
+	cakedwebble: {
+		randomBattleMoves: ["sleeppowder", "gigadrain", "hiddenpowerfire", "hiddenpowerice", "sludgebomb", "powerwhip", "leechseed", "synthesis"],
+		randomDoubleBattleMoves: ["sleeppowder", "gigadrain", "hiddenpowerfire", "hiddenpowerice", "sludgebomb", "powerwhip", "protect"],
+		tier: "NFE",
+	},
+	cakecrustle: {
+		randomBattleMoves: ["sleeppowder", "gigadrain", "hiddenpowerfire", "hiddenpowerice", "sludgebomb", "powerwhip", "leechseed", "synthesis"],
+		randomDoubleBattleMoves: ["sleeppowder", "gigadrain", "hiddenpowerfire", "hiddenpowerice", "sludgebomb", "powerwhip", "protect"],
+		tier: "OU",
+	},
 };
 
 exports.BattleFormatsData = BattleFormatsData;
