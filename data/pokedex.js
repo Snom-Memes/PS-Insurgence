@@ -14062,7 +14062,7 @@ let BattlePokedex = {
 	},
 	dwebblecake: {
 		num: 557,
-		species: "Bulbasaur",
+		species: "DwebbleCake",
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
@@ -14075,7 +14075,7 @@ let BattlePokedex = {
 	},
 	crustlecake: {
 		num: 558,
-		species: "Crustle",
+		species: "CrustleCake",
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
