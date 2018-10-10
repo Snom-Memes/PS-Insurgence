@@ -14087,7 +14087,7 @@ let BattlePokedex = {
 	},
 	dwebblecake: {
 		num: 557,
-		species: "Dwebble-2",
+		species: "Dwebble",
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
@@ -14100,7 +14100,7 @@ let BattlePokedex = {
 	},
 	crustlecake: {
 		num: 558,
-		species: "Crustle-2",
+		species: "Crustle",
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
@@ -14110,7 +14110,7 @@ let BattlePokedex = {
 		color: "Green",
 		evos: ["ivysaur"],
 		eggGroups: ["Monster", "Grass"],
-	},
+	}
 };
 
 exports.BattlePokedex = BattlePokedex;
