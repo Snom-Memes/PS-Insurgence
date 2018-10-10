@@ -14085,9 +14085,9 @@ let BattlePokedex = {
 		evoLevel: 34,
 		eggGroups: ["Undiscovered"],
 	},
-	bulbasaur2: {
-		num: 1,
-		species: "Bulbasaur-2",
+	dwebblecake: {
+		num: 557,
+		species: "Dwebble-2",
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
@@ -14097,7 +14097,20 @@ let BattlePokedex = {
 		color: "Green",
 		evos: ["ivysaur"],
 		eggGroups: ["Monster", "Grass"],
-	}
+	},
+	crustlecake: {
+		num: 558,
+		species: "Crustle-2",
+		types: ["Grass", "Fairy"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
+		abilities: {0: "Levitate", H: "Chlorophyll"},
+		heightm: 0.7,
+		weightkg: 6.9,
+		color: "Green",
+		evos: ["ivysaur"],
+		eggGroups: ["Monster", "Grass"],
+	},
 };
 
 exports.BattlePokedex = BattlePokedex;
