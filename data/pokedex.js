@@ -14087,7 +14087,7 @@ let BattlePokedex = {
 	},
 	dwebblecake: {
 		num: 557,
-		species: "Dwebble",
+		species: "Bulbasaur",
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
