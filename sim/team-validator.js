@@ -191,7 +191,7 @@ class Validator {
 			template = dex.getTemplate('rockruffdusk');
 		}
 		if (!template.exists) {
-			//return [`The Pokemon "${set.species}" does not exist.`];
+			return [`The Pokemon "${set.species}" does not exist.`];
 		}
 
 		if (item.id && !item.exists) {
