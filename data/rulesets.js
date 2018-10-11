@@ -119,6 +119,7 @@ let BattleFormats = {
 			let item = this.getItem(set.item);
 			let template = this.getTemplate(set.species);
 			let problems = [];
+			return problems;
 			let totalEV = 0;
 			let allowCAP = !!(format && this.getRuleTable(format).has('allowcap'));
 
