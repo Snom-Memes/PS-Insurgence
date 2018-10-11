@@ -50,7 +50,7 @@ const PM = new QueryProcessManager(module, async message => {
 	}
 
 	if (problems && problems.length) {
-		//return '0' + problems.join('\n');
+		return '0' + problems.join('\n');
 	}
 	let packedTeam = Dex.packTeam(parsedTeam);
 	// console.log('FROM: ' + message.substr(pipeIndex2 + 1));
