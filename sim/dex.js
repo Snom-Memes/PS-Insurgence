@@ -1357,7 +1357,11 @@ class ModdedDex {
 		try {
 			const filePath = basePath + DATA_FILES[dataType];
 			const dataObject = require(filePath);
+			const insurgenceData = require(MODS_DIR + "/insurgence/" + DATA_FILES[dataType]);
 			const key = `Battle${dataType}`;
+			for (var i in insurgenceData[key]) {
+				dataObject[key][i] = insurgenceData[key][i];
+			}
 			if (!dataObject || typeof dataObject !== 'object') return new TypeError(`${filePath}, if it exists, must export a non-null object`);
 			if (!dataObject[key] || typeof dataObject[key] !== 'object') return new TypeError(`${filePath}, if it exists, must export an object whose '${key}' property is a non-null object`);
 			return dataObject[key];
