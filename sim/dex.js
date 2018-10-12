@@ -1357,7 +1357,10 @@ class ModdedDex {
 		try {
 			const filePath = basePath + DATA_FILES[dataType];
 			const dataObject = require(filePath);
-			const insurgenceData = require(MODS_DIR + "/insurgence/" + DATA_FILES[dataType]);
+			var insurgenceData = {}
+			try {
+				insurgenceData = require(MODS_DIR + "/insurgence/" + DATA_FILES[dataType]);
+			} catch (e) {}
 			const key = `Battle${dataType}`;
 			for (var i in insurgenceData[key]) {
 				dataObject[key][i] = insurgenceData[key][i];
