@@ -68,6 +68,18 @@ let BattleAbilities = {
 		rating: 2,
 		num: 432,
 	},
+	"icecleats": {
+		shortDesc: "If hail is active, this Pokemon's Speed is doubled.",
+		onModifySpe: function (spe, pokemon) {
+			if (this.isWeather('hail')) {
+				return this.chainModify(2);
+			}
+		},
+		id: "icecleats",
+		name: "Ice Cleats",
+		rating: 3,
+		num: 433,
+	},
 };
 
 exports.BattleAbilities = BattleAbilities;
