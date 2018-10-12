@@ -14472,6 +14472,4 @@ let BattleLearnsets = {
 		waterpulse: ['6T'], 
 		zenheadbutt: ['6T'], 
 	}},
-};
-
-exports.BattleLearnsets = BattleLearnsets;
+};		exports.BattleLearnsets = BattleLearnsets;
