@@ -2,8 +2,8 @@
 
 /**@type {{[k: string]: ItemData}} */
 let BattleItems = {
-	poliwrathite : {
-		id: "poliwrathite ",
+	poliwrathite: {
+		id: "poliwrathite",
 		name: "Poliwrathite ",
 		spritenum: "575",
 		megaStone: "Poliwrath",
@@ -22,7 +22,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Marowak",
 		megaEvolves: "Marowak",
-		number: "1111",
+		number: "1112",
 		gen: "6",
 		desc: "If held by an Marowak, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -36,7 +36,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Eevee",
 		megaEvolves: "Eevee",
-		number: "1111",
+		number: "1113",
 		gen: "6",
 		desc: "If held by an Eevee, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -50,7 +50,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Meganium",
 		megaEvolves: "Meganium",
-		number: "1111",
+		number: "1114",
 		gen: "6",
 		desc: "If held by an Meganium, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -64,7 +64,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Typhlosion",
 		megaEvolves: "Typhlosion",
-		number: "1111",
+		number: "1115",
 		gen: "6",
 		desc: "If held by an Typhlosion, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -78,7 +78,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Feraligatr",
 		megaEvolves: "Feraligatr",
-		number: "1111",
+		number: "1116",
 		gen: "6",
 		desc: "If held by an Feraligatr, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -86,13 +86,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	sudowoodite : {
-		id: "sudowoodite ",
+	sudowoodite: {
+		id: "sudowoodite",
 		name: "Sudowoodite ",
 		spritenum: "575",
 		megaStone: "Sudowoodo",
 		megaEvolves: "Sudowoodo",
-		number: "1111",
+		number: "1117",
 		gen: "6",
 		desc: "If held by an Sudowoodo, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -106,7 +106,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Politoed",
 		megaEvolves: "Politoed",
-		number: "1111",
+		number: "1118",
 		gen: "6",
 		desc: "If held by an Politoed, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -114,13 +114,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	sunflorite : {
-		id: "sunflorite ",
+	sunflorite: {
+		id: "sunflorite",
 		name: "Sunflorite ",
 		spritenum: "575",
 		megaStone: "Sunflora",
 		megaEvolves: "Sunflora",
-		number: "1111",
+		number: "1119",
 		gen: "6",
 		desc: "If held by an Sunflora, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -134,7 +134,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Girafarig",
 		megaEvolves: "Girafarig",
-		number: "1111",
+		number: "1120",
 		gen: "6",
 		desc: "If held by an Girafarig, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -142,13 +142,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	steelixite (fire): {
-		id: "steelixite (fire)",
+	steelixitefire: {
+		id: "steelixitefire",
 		name: "Steelixite (Fire)",
 		spritenum: "575",
 		megaStone: "Steelix",
 		megaEvolves: "Steelix",
-		number: "1111",
+		number: "1121",
 		gen: "6",
 		desc: "If held by an Steelix, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -162,7 +162,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Magcargo",
 		megaEvolves: "Magcargo",
-		number: "1111",
+		number: "1122",
 		gen: "6",
 		desc: "If held by an Magcargo, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -176,7 +176,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Donphan",
 		megaEvolves: "Donphan",
-		number: "1111",
+		number: "1123",
 		gen: "6",
 		desc: "If held by an Donphan, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -190,7 +190,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Miltank",
 		megaEvolves: "Miltank",
-		number: "1111",
+		number: "1124",
 		gen: "6",
 		desc: "If held by an Miltank, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -204,7 +204,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Shiftry",
 		megaEvolves: "Shiftry",
-		number: "1111",
+		number: "1125",
 		gen: "6",
 		desc: "If held by an Shiftry, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -218,7 +218,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Flygon",
 		megaEvolves: "Flygon",
-		number: "1111",
+		number: "1126",
 		gen: "6",
 		desc: "If held by an Flygon, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -232,7 +232,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Cacturne",
 		megaEvolves: "Cacturne",
-		number: "1111",
+		number: "1127",
 		gen: "6",
 		desc: "If held by an Cacturne, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -246,7 +246,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Crawdaunt",
 		megaEvolves: "Crawdaunt",
-		number: "1111",
+		number: "1128",
 		gen: "6",
 		desc: "If held by an Crawdaunt, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -260,7 +260,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Milotic",
 		megaEvolves: "Milotic",
-		number: "1111",
+		number: "1129",
 		gen: "6",
 		desc: "If held by an Milotic, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -268,13 +268,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	jirachite : {
-		id: "jirachite ",
+	jirachite: {
+		id: "jirachite",
 		name: "Jirachite ",
 		spritenum: "575",
 		megaStone: "Jirachi",
 		megaEvolves: "Jirachi",
-		number: "1111",
+		number: "1130",
 		gen: "6",
 		desc: "If held by an Jirachi, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -282,13 +282,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	chatotite : {
-		id: "chatotite ",
+	chatotite: {
+		id: "chatotite",
 		name: "Chatotite ",
 		spritenum: "575",
 		megaStone: "Chatot",
 		megaEvolves: "Chatot",
-		number: "1111",
+		number: "1131",
 		gen: "6",
 		desc: "If held by an Chatot, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -302,7 +302,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Zebstrika",
 		megaEvolves: "Zebstrika",
-		number: "1111",
+		number: "1132",
 		gen: "6",
 		desc: "If held by an Zebstrika, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -316,7 +316,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Zoroark",
 		megaEvolves: "Zoroark",
-		number: "1111",
+		number: "1133",
 		gen: "6",
 		desc: "If held by an Zoroark, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -330,7 +330,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Gothitelle",
 		megaEvolves: "Gothitelle",
-		number: "1111",
+		number: "1134",
 		gen: "6",
 		desc: "If held by an Gothitelle, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -344,7 +344,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Reuniclus",
 		megaEvolves: "Reuniclus",
-		number: "1111",
+		number: "1135",
 		gen: "6",
 		desc: "If held by an Reuniclus, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -358,7 +358,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Cryogonal",
 		megaEvolves: "Cryogonal",
-		number: "1111",
+		number: "1136",
 		gen: "6",
 		desc: "If held by an Cryogonal, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -366,13 +366,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	haxorite : {
-		id: "haxorite ",
+	haxorite: {
+		id: "haxorite",
 		name: "Haxorite ",
 		spritenum: "575",
 		megaStone: "Haxorus",
 		megaEvolves: "Haxorus",
-		number: "1111",
+		number: "1137",
 		gen: "6",
 		desc: "If held by an Haxorus, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -386,7 +386,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Stunfisk",
 		megaEvolves: "Stunfisk",
-		number: "1111",
+		number: "1138",
 		gen: "6",
 		desc: "If held by an Stunfisk, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -400,7 +400,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Bisharp",
 		megaEvolves: "Bisharp",
-		number: "1111",
+		number: "1139",
 		gen: "6",
 		desc: "If held by an Bisharp, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -414,7 +414,7 @@ let BattleItems = {
 		spritenum: "575",
 		megaStone: "Hydreigon",
 		megaEvolves: "Hydreigon",
-		number: "1111",
+		number: "1140",
 		gen: "6",
 		desc: "If held by an Hydreigon, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -422,13 +422,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta venusaurite: {
-		id: "delta venusaurite",
+	deltavenusaurite: {
+		id: "deltavenusaurite",
 		name: "Delta Venusaurite",
 		spritenum: "575",
 		megaStone: "Delta Venusaur",
 		megaEvolves: "Delta Venusaur",
-		number: "1111",
+		number: "1141",
 		gen: "6",
 		desc: "If held by an Delta Venusaur, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -436,13 +436,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta charizardite: {
-		id: "delta charizardite",
+	deltacharizardite: {
+		id: "deltacharizardite",
 		name: "Delta Charizardite",
 		spritenum: "575",
 		megaStone: "Delta Charizard",
 		megaEvolves: "Delta Charizard",
-		number: "1111",
+		number: "1142",
 		gen: "6",
 		desc: "If held by an Delta Charizard, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -450,13 +450,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta blastoisinite: {
-		id: "delta blastoisinite",
+	deltablastoisinite: {
+		id: "deltablastoisinite",
 		name: "Delta Blastoisinite",
 		spritenum: "575",
 		megaStone: "Delta Blastoise",
 		megaEvolves: "Delta Blastoise",
-		number: "1111",
+		number: "1143",
 		gen: "6",
 		desc: "If held by an Delta Blastoise, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -464,13 +464,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta bisharpite: {
-		id: "delta bisharpite",
+	deltabisharpite: {
+		id: "deltabisharpite",
 		name: "Delta Bisharpite",
 		spritenum: "575",
 		megaStone: "Delta Bisharp",
 		megaEvolves: "Delta Bisharp",
-		number: "1111",
+		number: "1144",
 		gen: "6",
 		desc: "If held by an Delta Bisharp, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -478,13 +478,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta gardevoirite: {
-		id: "delta gardevoirite",
+	deltagardevoirite: {
+		id: "deltagardevoirite",
 		name: "Delta Gardevoirite",
 		spritenum: "575",
 		megaStone: "Delta Gardevoir",
 		megaEvolves: "Delta Gardevoir",
-		number: "1111",
+		number: "1145",
 		gen: "6",
 		desc: "If held by an Delta Gardevoir, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -492,13 +492,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta galladite: {
-		id: "delta galladite",
+	deltagalladite: {
+		id: "deltagalladite",
 		name: "Delta Galladite",
 		spritenum: "575",
 		megaStone: "Delta Gallade",
 		megaEvolves: "Delta Gallade",
-		number: "1111",
+		number: "1146",
 		gen: "6",
 		desc: "If held by an Delta Gallade, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -506,13 +506,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta sunflorite: {
-		id: "delta sunflorite",
+	deltasunflorite: {
+		id: "deltasunflorite",
 		name: "Delta Sunflorite",
 		spritenum: "575",
 		megaStone: "Delta Sunflora",
 		megaEvolves: "Delta Sunflora",
-		number: "1111",
+		number: "1147",
 		gen: "6",
 		desc: "If held by an Delta Sunflora, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -520,13 +520,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta scizorite: {
-		id: "delta scizorite",
+	deltascizorite: {
+		id: "deltascizorite",
 		name: "Delta Scizorite",
 		spritenum: "575",
 		megaStone: "Delta Scizor",
 		megaEvolves: "Delta Scizor",
-		number: "1111",
+		number: "1148",
 		gen: "6",
 		desc: "If held by an Delta Scizor, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -534,13 +534,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta glalitite : {
-		id: "delta glalitite ",
+	deltaglalitite: {
+		id: "deltaglalitite",
 		name: "Delta Glalitite ",
 		spritenum: "575",
 		megaStone: "Delta Glalie",
 		megaEvolves: "Delta Glalie",
-		number: "1111",
+		number: "1149",
 		gen: "6",
 		desc: "If held by an Delta Glalie, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -548,13 +548,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta froslassite: {
-		id: "delta froslassite",
+	deltafroslassite: {
+		id: "deltafroslassite",
 		name: "Delta Froslassite",
 		spritenum: "575",
 		megaStone: "Delta Froslass",
 		megaEvolves: "Delta Froslass",
-		number: "1111",
+		number: "1150",
 		gen: "6",
 		desc: "If held by an Delta Froslass, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -562,13 +562,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta typhlosionite: {
-		id: "delta typhlosionite",
+	deltatyphlosionite: {
+		id: "deltatyphlosionite",
 		name: "Delta Typhlosionite",
 		spritenum: "575",
 		megaStone: "Delta Typhlosion",
 		megaEvolves: "Delta Typhlosion",
-		number: "1111",
+		number: "1151",
 		gen: "6",
 		desc: "If held by an Delta Typhlosion, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -576,13 +576,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta pidgeotite: {
-		id: "delta pidgeotite",
+	deltapidgeotite: {
+		id: "deltapidgeotite",
 		name: "Delta Pidgeotite",
 		spritenum: "575",
 		megaStone: "Delta Pidgeot",
 		megaEvolves: "Delta Pidgeot",
-		number: "1111",
+		number: "1152",
 		gen: "6",
 		desc: "If held by an Delta Pidgeot, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -590,13 +590,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta etigirafarigite: {
-		id: "delta etigirafarigite",
+	deltaetigirafarigite: {
+		id: "deltaetigirafarigite",
 		name: "Delta Etigirafarigite",
 		spritenum: "575",
 		megaStone: "Delta Girafarig",
 		megaEvolves: "Delta Girafarig",
-		number: "1111",
+		number: "1153",
 		gen: "6",
 		desc: "If held by an Delta Girafarig, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -604,13 +604,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta sablenite: {
-		id: "delta sablenite",
+	deltasablenite: {
+		id: "deltasablenite",
 		name: "Delta Sablenite",
 		spritenum: "575",
 		megaStone: "Delta Sableye",
 		megaEvolves: "Delta Sableye",
-		number: "1111",
+		number: "1154",
 		gen: "6",
 		desc: "If held by an Delta Sableye, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -618,13 +618,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta mawilite: {
-		id: "delta mawilite",
+	deltamawilite: {
+		id: "deltamawilite",
 		name: "Delta Mawilite",
 		spritenum: "575",
 		megaStone: "Delta Mawile",
 		megaEvolves: "Delta Mawile",
-		number: "1111",
+		number: "1155",
 		gen: "6",
 		desc: "If held by an Delta Mawile, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -632,13 +632,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta medichamite: {
-		id: "delta medichamite",
+	deltamedichamite: {
+		id: "deltamedichamite",
 		name: "Delta Medichamite",
 		spritenum: "575",
 		megaStone: "Delta Medicham",
 		megaEvolves: "Delta Medicham",
-		number: "1111",
+		number: "1156",
 		gen: "6",
 		desc: "If held by an Delta Medicham, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -646,13 +646,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta cameruptite: {
-		id: "delta cameruptite",
+	deltacameruptite: {
+		id: "deltacameruptite",
 		name: "Delta Cameruptite",
 		spritenum: "575",
 		megaStone: "Delta Camerupt",
 		megaEvolves: "Delta Camerupt",
-		number: "1111",
+		number: "1157",
 		gen: "6",
 		desc: "If held by an Delta Camerupt, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -660,13 +660,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta milotite: {
-		id: "delta milotite",
+	deltamilotite: {
+		id: "deltamilotite",
 		name: "Delta Milotite",
 		spritenum: "575",
 		megaStone: "Delta Milotic",
 		megaEvolves: "Delta Milotic",
-		number: "1111",
+		number: "1158",
 		gen: "6",
 		desc: "If held by an Delta Milotic, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -674,13 +674,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta metagrossite (spider) : {
-		id: "delta metagrossite (spider) ",
+	deltametagrossitespider: {
+		id: "deltametagrossitespider",
 		name: "Delta Metagrossite (Spider) ",
 		spritenum: "575",
 		megaStone: "Delta Metagross (Spider)",
 		megaEvolves: "Delta Metagross (Spider)",
-		number: "1111",
+		number: "1159",
 		gen: "6",
 		desc: "If held by an Delta Metagross (Spider), this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -688,13 +688,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta metagrossite (ruin) : {
-		id: "delta metagrossite (ruin) ",
+	deltametagrossiteruin: {
+		id: "deltametagrossiteruin",
 		name: "Delta Metagrossite (Ruin) ",
 		spritenum: "575",
 		megaStone: "Delta Metagross (Ruin)",
 		megaEvolves: "Delta Metagross (Ruin)",
-		number: "1111",
+		number: "1160",
 		gen: "6",
 		desc: "If held by an Delta Metagross (Ruin), this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -702,13 +702,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta lopunnite : {
-		id: "delta lopunnite ",
+	deltalopunnite: {
+		id: "deltalopunnite",
 		name: "Delta Lopunnite ",
 		spritenum: "575",
 		megaStone: "Delta Lopunny",
 		megaEvolves: "Delta Lopunny",
-		number: "1111",
+		number: "1161",
 		gen: "6",
 		desc: "If held by an Delta Lopunny, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
@@ -716,13 +716,13 @@ let BattleItems = {
 			return true;
 		},
 	},
-	delta lucarionite : {
-		id: "delta lucarionite ",
+	deltalucarionite: {
+		id: "deltalucarionite",
 		name: "Delta Lucarionite ",
 		spritenum: "575",
 		megaStone: "Delta Lucario",
 		megaEvolves: "Delta Lucario",
-		number: "1111",
+		number: "1162",
 		gen: "6",
 		desc: "If held by an Delta Lucario, this item allows it to Mega Evolve in battle.",
 		onTakeItem: function (item, source) {
