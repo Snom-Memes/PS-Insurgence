@@ -80,6 +80,43 @@ let BattleAbilities = {
 		rating: 3,
 		num: 433,
 	},
+	"hubris": {
+		desc: "This Pokemon's Special Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+		shortDesc: "This Pokemon's Special is raised by 1 stage if it attacks and KOes another Pokemon.",
+		onSourceFaint: function (target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				this.boost({spa: 1}, source);
+			}
+		},
+		id: "hubris",
+		name: "Hubris",
+		rating: 3.5,
+		num: 434,
+	},
+	"amplifier": {
+		shortDesc: "This Pokemon's contact moves have their power multiplied by 1.3.",
+		onBasePowerPriority: 8,
+		onBasePower: function (basePower, attacker, defender, move) {
+			if (move.flags['sound']) {
+				return this.chainModify(1.5);
+			}
+		},
+		id: "amplifier",
+		name: "Amplifier",
+		rating: 3.5,
+		num: 435,
+	},
+	"athenian": {
+		shortDesc: "This Pokemon's Special Attack is doubled.",
+		onModifySpaPriority: 5,
+		onModifySpa: function (spa) {
+			return this.chainModify(2);
+		},
+		id: "athenian",
+		name: "athenian",
+		rating: 5,
+		num: 436,
+	},
 };
 
 exports.BattleAbilities = BattleAbilities;
