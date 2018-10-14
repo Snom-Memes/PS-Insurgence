@@ -717,7 +717,45 @@ let BattleStatuses = {
 			this.add('-weather', 'none');
 		},
 	},
-
+	newmoon: {
+		name: 'Darkness',
+		id: 'darkness',
+		num: 0,
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback: function (source, effect) {
+			if (source && source.hasItem('darkrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onWeatherModifyDamage: function (damage, attacker, defender, move) {
+			if (move.type === 'Ghost' && move.type === 'Dark') {
+				this.debug('Darkness ghost/dark boost');
+				return this.chainModify(1.5);
+			}
+			if (move.type === 'Fairy') {
+				this.debug('Darkness fairy suppress');
+				return this.chainModify(0.25);
+			}
+		},
+		onStart: function (battle, source, effect) {
+			if (effect && effect.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Darkness', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Darkness');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual: function () {
+			this.add('-weather', 'Darkness', '[upkeep]');
+			this.eachEvent('Weather');
+		},
+		onEnd: function () {
+			this.add('-weather', 'none');
+		},
+	},
 	// Arceus and Silvally's actual typing is implemented here.
 	// Their true typing for all their formes is Normal, and it's only
 	// Multitype and RKS System, respectively, that changes their type,

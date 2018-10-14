@@ -10748,7 +10748,7 @@ let BattleMovedex = {
 		onHit: function (pokemon) {
 			if (this.isWeather(['sunnyday', 'desolateland'])) {
 				return this.heal(this.modify(pokemon.maxhp, 0.667));
-			} else if (this.isWeather(['raindance', 'primordialsea', 'sandstorm', 'hail'])) {
+			} else if (this.isWeather(['raindance', 'primordialsea', 'sandstorm', 'hail','darkness'])) {
 				return this.heal(this.modify(pokemon.maxhp, 0.25));
 			} else {
 				return this.heal(this.modify(pokemon.maxhp, 0.5));
@@ -10776,7 +10776,7 @@ let BattleMovedex = {
 		onHit: function (pokemon) {
 			if (this.isWeather(['sunnyday', 'desolateland'])) {
 				return this.heal(this.modify(pokemon.maxhp, 0.667));
-			} else if (this.isWeather(['raindance', 'primordialsea', 'sandstorm', 'hail'])) {
+			} else if (this.isWeather(['raindance', 'primordialsea', 'sandstorm', 'hail', 'darkness'])) {
 				return this.heal(this.modify(pokemon.maxhp, 0.25));
 			} else {
 				return this.heal(this.modify(pokemon.maxhp, 0.5));
@@ -11672,6 +11672,10 @@ let BattleMovedex = {
 			if (attacker.removeVolatile(move.id)) {
 				return;
 			}
+			if (this.isWeather('darkness') || !this.runEvent('ChargeMove', attacker, defender, move)) {
+				this.add('-anim', attacker, move.name, defender);
+				return;
+			}
 			this.add('-prepare', attacker, move.name, defender);
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				this.add('-anim', attacker, move.name, defender);
@@ -11680,6 +11684,7 @@ let BattleMovedex = {
 			attacker.addVolatile('twoturnmove', defender);
 			return null;
 		},
+
 		effect: {
 			duration: 2,
 			onTryImmunity: function (target, source, move) {
@@ -14402,6 +14407,10 @@ let BattleMovedex = {
 			if (attacker.removeVolatile(move.id)) {
 				return;
 			}
+			if (this.isWeather('darkness') || !this.runEvent('ChargeMove', attacker, defender, move)) {
+				this.add('-anim', attacker, move.name, defender);
+				return;
+			}
 			this.add('-prepare', attacker, move.name, defender);
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				this.add('-anim', attacker, move.name, defender);
@@ -16954,7 +16963,7 @@ let BattleMovedex = {
 		onHit: function (pokemon) {
 			if (this.isWeather(['sunnyday', 'desolateland'])) {
 				return this.heal(this.modify(pokemon.maxhp, 0.667));
-			} else if (this.isWeather(['raindance', 'primordialsea', 'sandstorm', 'hail'])) {
+			} else if (this.isWeather(['raindance', 'primordialsea', 'sandstorm', 'hail', 'darkness'])) {
 				return this.heal(this.modify(pokemon.maxhp, 0.25));
 			} else {
 				return this.heal(this.modify(pokemon.maxhp, 0.5));
