@@ -2,7 +2,7 @@
 
 /**@type {{[k: string]: ItemData}} */
 let BattleItems = {
-	"poliwrathite ": {
+	poliwrathite : {
 		id: "poliwrathite ",
 		name: "Poliwrathite ",
 		spritenum: "575",
@@ -16,7 +16,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"marowite": {
+	marowite: {
 		id: "marowite",
 		name: "Marowite",
 		spritenum: "575",
@@ -30,7 +30,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"eevite": {
+	eevite: {
 		id: "eevite",
 		name: "Eevite",
 		spritenum: "575",
@@ -44,7 +44,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"meganiumite": {
+	meganiumite: {
 		id: "meganiumite",
 		name: "Meganiumite",
 		spritenum: "575",
@@ -58,7 +58,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"typhlosionite": {
+	typhlosionite: {
 		id: "typhlosionite",
 		name: "Typhlosionite",
 		spritenum: "575",
@@ -72,7 +72,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"feraligatite": {
+	feraligatite: {
 		id: "feraligatite",
 		name: "Feraligatite",
 		spritenum: "575",
@@ -86,7 +86,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"sudowoodite ": {
+	sudowoodite : {
 		id: "sudowoodite ",
 		name: "Sudowoodite ",
 		spritenum: "575",
@@ -100,7 +100,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"politoedite": {
+	politoedite: {
 		id: "politoedite",
 		name: "Politoedite",
 		spritenum: "575",
@@ -114,7 +114,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"sunflorite ": {
+	sunflorite : {
 		id: "sunflorite ",
 		name: "Sunflorite ",
 		spritenum: "575",
@@ -128,7 +128,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"etigirafarigite": {
+	etigirafarigite: {
 		id: "etigirafarigite",
 		name: "Etigirafarigite",
 		spritenum: "575",
@@ -142,7 +142,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"steelixite (fire)": {
+	steelixite (fire): {
 		id: "steelixite (fire)",
 		name: "Steelixite (Fire)",
 		spritenum: "575",
@@ -156,7 +156,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"magcargonite": {
+	magcargonite: {
 		id: "magcargonite",
 		name: "Magcargonite",
 		spritenum: "575",
@@ -170,7 +170,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"donphanite": {
+	donphanite: {
 		id: "donphanite",
 		name: "Donphanite",
 		spritenum: "575",
@@ -184,7 +184,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"miltankite": {
+	miltankite: {
 		id: "miltankite",
 		name: "Miltankite",
 		spritenum: "575",
@@ -198,7 +198,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"shiftrite": {
+	shiftrite: {
 		id: "shiftrite",
 		name: "Shiftrite",
 		spritenum: "575",
@@ -212,7 +212,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"flygonite": {
+	flygonite: {
 		id: "flygonite",
 		name: "Flygonite",
 		spritenum: "575",
@@ -226,7 +226,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"cacturnite": {
+	cacturnite: {
 		id: "cacturnite",
 		name: "Cacturnite",
 		spritenum: "575",
@@ -240,7 +240,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"crawdite": {
+	crawdite: {
 		id: "crawdite",
 		name: "Crawdite",
 		spritenum: "575",
@@ -254,7 +254,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"milotite": {
+	milotite: {
 		id: "milotite",
 		name: "Milotite",
 		spritenum: "575",
@@ -268,7 +268,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"jirachite ": {
+	jirachite : {
 		id: "jirachite ",
 		name: "Jirachite ",
 		spritenum: "575",
@@ -282,7 +282,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"chatotite ": {
+	chatotite : {
 		id: "chatotite ",
 		name: "Chatotite ",
 		spritenum: "575",
@@ -296,7 +296,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"zebstrikite": {
+	zebstrikite: {
 		id: "zebstrikite",
 		name: "Zebstrikite",
 		spritenum: "575",
@@ -310,7 +310,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"zoronite": {
+	zoronite: {
 		id: "zoronite",
 		name: "Zoronite",
 		spritenum: "575",
@@ -324,7 +324,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"gothitite": {
+	gothitite: {
 		id: "gothitite",
 		name: "Gothitite",
 		spritenum: "575",
@@ -338,7 +338,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"reuniclite": {
+	reuniclite: {
 		id: "reuniclite",
 		name: "Reuniclite",
 		spritenum: "575",
@@ -352,7 +352,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"cryogonite": {
+	cryogonite: {
 		id: "cryogonite",
 		name: "Cryogonite",
 		spritenum: "575",
@@ -366,7 +366,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"haxorite ": {
+	haxorite : {
 		id: "haxorite ",
 		name: "Haxorite ",
 		spritenum: "575",
@@ -380,7 +380,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"stunfiskite": {
+	stunfiskite: {
 		id: "stunfiskite",
 		name: "Stunfiskite",
 		spritenum: "575",
@@ -394,7 +394,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"bisharpite": {
+	bisharpite: {
 		id: "bisharpite",
 		name: "Bisharpite",
 		spritenum: "575",
@@ -408,7 +408,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"hydreigonite": {
+	hydreigonite: {
 		id: "hydreigonite",
 		name: "Hydreigonite",
 		spritenum: "575",
@@ -422,7 +422,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta venusaurite": {
+	delta venusaurite: {
 		id: "delta venusaurite",
 		name: "Delta Venusaurite",
 		spritenum: "575",
@@ -436,7 +436,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta charizardite": {
+	delta charizardite: {
 		id: "delta charizardite",
 		name: "Delta Charizardite",
 		spritenum: "575",
@@ -450,7 +450,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta blastoisinite": {
+	delta blastoisinite: {
 		id: "delta blastoisinite",
 		name: "Delta Blastoisinite",
 		spritenum: "575",
@@ -464,7 +464,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta bisharpite": {
+	delta bisharpite: {
 		id: "delta bisharpite",
 		name: "Delta Bisharpite",
 		spritenum: "575",
@@ -478,7 +478,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta gardevoirite": {
+	delta gardevoirite: {
 		id: "delta gardevoirite",
 		name: "Delta Gardevoirite",
 		spritenum: "575",
@@ -492,7 +492,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta galladite": {
+	delta galladite: {
 		id: "delta galladite",
 		name: "Delta Galladite",
 		spritenum: "575",
@@ -506,7 +506,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta sunflorite": {
+	delta sunflorite: {
 		id: "delta sunflorite",
 		name: "Delta Sunflorite",
 		spritenum: "575",
@@ -520,7 +520,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta scizorite": {
+	delta scizorite: {
 		id: "delta scizorite",
 		name: "Delta Scizorite",
 		spritenum: "575",
@@ -534,7 +534,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta glalitite ": {
+	delta glalitite : {
 		id: "delta glalitite ",
 		name: "Delta Glalitite ",
 		spritenum: "575",
@@ -548,7 +548,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta froslassite": {
+	delta froslassite: {
 		id: "delta froslassite",
 		name: "Delta Froslassite",
 		spritenum: "575",
@@ -562,7 +562,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta typhlosionite": {
+	delta typhlosionite: {
 		id: "delta typhlosionite",
 		name: "Delta Typhlosionite",
 		spritenum: "575",
@@ -576,7 +576,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta pidgeotite": {
+	delta pidgeotite: {
 		id: "delta pidgeotite",
 		name: "Delta Pidgeotite",
 		spritenum: "575",
@@ -590,7 +590,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta etigirafarigite": {
+	delta etigirafarigite: {
 		id: "delta etigirafarigite",
 		name: "Delta Etigirafarigite",
 		spritenum: "575",
@@ -604,7 +604,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta sablenite": {
+	delta sablenite: {
 		id: "delta sablenite",
 		name: "Delta Sablenite",
 		spritenum: "575",
@@ -618,7 +618,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta mawilite": {
+	delta mawilite: {
 		id: "delta mawilite",
 		name: "Delta Mawilite",
 		spritenum: "575",
@@ -632,7 +632,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta medichamite": {
+	delta medichamite: {
 		id: "delta medichamite",
 		name: "Delta Medichamite",
 		spritenum: "575",
@@ -646,7 +646,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta cameruptite": {
+	delta cameruptite: {
 		id: "delta cameruptite",
 		name: "Delta Cameruptite",
 		spritenum: "575",
@@ -660,7 +660,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta milotite": {
+	delta milotite: {
 		id: "delta milotite",
 		name: "Delta Milotite",
 		spritenum: "575",
@@ -674,7 +674,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta metagrossite (spider) ": {
+	delta metagrossite (spider) : {
 		id: "delta metagrossite (spider) ",
 		name: "Delta Metagrossite (Spider) ",
 		spritenum: "575",
@@ -688,7 +688,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta metagrossite (ruin) ": {
+	delta metagrossite (ruin) : {
 		id: "delta metagrossite (ruin) ",
 		name: "Delta Metagrossite (Ruin) ",
 		spritenum: "575",
@@ -702,7 +702,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta lopunnite ": {
+	delta lopunnite : {
 		id: "delta lopunnite ",
 		name: "Delta Lopunnite ",
 		spritenum: "575",
@@ -716,7 +716,7 @@ let BattleItems = {
 			return true;
 		},
 	},
-	"delta lucarionite ": {
+	delta lucarionite : {
 		id: "delta lucarionite ",
 		name: "Delta Lucarionite ",
 		spritenum: "575",
