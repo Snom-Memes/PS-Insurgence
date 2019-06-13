@@ -148,9 +148,9 @@ let Formats = [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3591711/">AG Resources</a>`,
 		],
 
-		mod: 'gen7',
+		mod: 'insurgence',
 		ruleset: ['Pokemon', 'Endless Battle Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod'],
-		banlist: ['Illegal', 'Unreleased'],
+		banlist: [],
 	},
 	{
 		name: "[Gen 7] CAP",
